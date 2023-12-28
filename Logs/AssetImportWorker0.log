@@ -982,3 +982,19 @@ Received Import Request.
 Start importing Assets/Tileset/Materials/trees.mat using Guid(a7f5205ac8e25734db20f228153b7d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59c14b70c5c0d4a737a601ff9e78b9e') in 0.067625 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1196.221301 seconds.
+  path: Assets/PlusMusic/Scripts/Core
+  artifactKey: Guid(c02b3f15fd964ff4b88f702770824417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlusMusic/Scripts/Core using Guid(c02b3f15fd964ff4b88f702770824417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2f54f1de407a201acb7cc596aafdcf') in 0.001565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.835733 seconds.
+  path: Assets/PlusMusic/Scripts/Core/PlusMusicCore.cs
+  artifactKey: Guid(04679b76cc6cf944b9b50b9f436c7323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlusMusic/Scripts/Core/PlusMusicCore.cs using Guid(04679b76cc6cf944b9b50b9f436c7323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4f17054db220dc3287bfc0042c0ca8') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
