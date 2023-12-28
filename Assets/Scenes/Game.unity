@@ -231,7 +231,7 @@ MonoBehaviour:
   interpVelocity: 0
   minDistance: 0
   followDistance: 0
-  target: {fileID: 0}
+  target: {fileID: 1105025158}
   offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &902251053
 PrefabInstance:
@@ -687,6 +687,11 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &1105025158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4990073628458053775, guid: eeffcc566a521574baaf6d4def0914ec, type: 3}
+  m_PrefabInstance: {fileID: 902251053}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1698557850
 GameObject:
   m_ObjectHideFlags: 0
