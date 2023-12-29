@@ -14,8 +14,8 @@ TagManager:
   - Background
   - Midground
   - Foreground
-  - 
-  - 
+  - Player
+  - Charms
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 485293579
+    locked: 0
+  - name: Player
+    uniqueID: 2503224483
     locked: 0
