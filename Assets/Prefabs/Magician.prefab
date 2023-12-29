@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 828072782}
   - component: {fileID: 828072781}
   - component: {fileID: 8267329079916377110}
-  - component: {fileID: 2874094437406159194}
+  - component: {fileID: 5140337996689105512}
   m_Layer: 9
   m_Name: Magician
   m_TagString: Player
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &2874094437406159194
+--- !u!114 &5140337996689105512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,14 +258,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4990073628458053775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b97f4a0453e03ac4aa35d5cdae0583c5, type: 3}
+  m_Script: {fileID: 11500000, guid: ad5f9410964d5b04f9dceb21bf5724ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 4
+  runSpeed: 5
   jumpSpeed: 10
   charm: {fileID: 4990073628458053775, guid: 0234eabccc9264c46b1b0ce04d179f81, type: 3}
-  spell: {fileID: 7238829092889798248}
-  magician: {fileID: 4990073628458053775}
+  gun: {fileID: 7238829092889798248}
 --- !u!1 &7255177656740005509
 GameObject:
   m_ObjectHideFlags: 0

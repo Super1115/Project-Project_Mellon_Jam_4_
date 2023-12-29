@@ -7,9 +7,13 @@ public class Charm : MonoBehaviour
     Rigidbody2D myRigidBody;
     [SerializeField] float charmSpeed = 20f;
 
-    [SerializeField] float timePetCharmed = 2f;
+    [SerializeField] float timePetCharmed = 5f;
+
+    [SerializeField] int pointsForPetCollected = 100;
     Player player;
     float xSpeed;
+
+    Coroutine coroutine;
    
     void Start()
     {
@@ -24,8 +28,9 @@ public class Charm : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag == "Mascots"){
-           CharmPet();
+        if(other.tag == "Pets"){
+           coroutine= StartCoroutine(CharmPet());
+           FindObjectOfType<ScoreKeeper>().ModifyScore(pointsForPetCollected);
         }
         Destroy(gameObject);
     }

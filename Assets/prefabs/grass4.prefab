@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8701820529963389560}
   - component: {fileID: 2743095755180631170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tileset_forest_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7775208292326573513}
   - component: {fileID: 4374336219028162039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tileset_forest_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6269761738421903610}
   - component: {fileID: -8390653336297523825}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: grass4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

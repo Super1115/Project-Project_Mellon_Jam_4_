@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4003469238452491875}
   - component: {fileID: -4440396052560836149}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: snow5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4209460663787033099}
   - component: {fileID: 3894024074172482566}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tileset_snow_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

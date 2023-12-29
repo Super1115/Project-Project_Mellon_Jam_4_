@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7911592828086731277}
   - component: {fileID: 2224683924542040199}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tileset_dirt_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4817758398474770654}
   - component: {fileID: -4777132025056876037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: dirt2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2766425167929755859}
   - component: {fileID: 3653976200824165248}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tileset_dirt_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

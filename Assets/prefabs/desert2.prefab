@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8301243204722411757}
   - component: {fileID: 4298730200910499694}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tileset_desert_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8101981082487412538}
   - component: {fileID: -3209397757317377187}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: desert2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
