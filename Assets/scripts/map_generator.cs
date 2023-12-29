@@ -6,6 +6,9 @@ public class map_generator : MonoBehaviour
 {
     public Transform SpawnPointObject;
     public GameObject Player;
+    public int minLength;
+    public int maxLength;
+
     public float SpawnPointX = -7;
     public float SpawnPointY = 0;
     public Transform[] allPlatformPrefabs;
@@ -15,9 +18,9 @@ public class map_generator : MonoBehaviour
         var random = new System.Random();
         transform.position = new Vector3(0,0);
         SpawnObject(x:SpawnPointX,SpawnPointY,SpawnPointObject);
-        for (int i = 0; i < 50; i++) 
+        for (int i = 0; i < 25; i++) 
             {
-                SpawnObject(transform.position.x+random.Next(3,5),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
+                SpawnObject(transform.position.x+random.Next(minLength,maxLength),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
             }
     }
 
@@ -28,7 +31,7 @@ public class map_generator : MonoBehaviour
     void Update(){
         var random = new System.Random();
         if(transform.position.x-Player.transform.position.x<40){
-            SpawnObject(transform.position.x+random.Next(3,5),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
+            SpawnObject(transform.position.x+random.Next(minLength,maxLength),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
         }
     }
 }
