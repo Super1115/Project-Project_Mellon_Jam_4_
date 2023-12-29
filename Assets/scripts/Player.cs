@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        if (!myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Platform")))
+        if (!myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Midground")))
         {
             return;
         }

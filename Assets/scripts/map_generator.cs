@@ -17,7 +17,7 @@ public class map_generator : MonoBehaviour
         SpawnObject(x:SpawnPointX,SpawnPointY,SpawnPointObject);
         for (int i = 0; i < 50; i++) 
             {
-                SpawnObject(transform.position.x+random.Next(5,8),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
+                SpawnObject(transform.position.x+random.Next(3,5),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
             }
     }
 
@@ -28,7 +28,7 @@ public class map_generator : MonoBehaviour
     void Update(){
         var random = new System.Random();
         if(transform.position.x-Player.transform.position.x<40){
-            SpawnObject(transform.position.x+random.Next(5,8),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
+            SpawnObject(transform.position.x+random.Next(3,5),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);
         }
     }
 }
