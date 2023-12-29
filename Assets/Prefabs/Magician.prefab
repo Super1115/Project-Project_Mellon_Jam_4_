@@ -183,7 +183,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 4990073628458053775}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 27fff083bbc8fb94698d4c742151e0cb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -209,8 +209,8 @@ BoxCollider2D:
   m_Offset: {x: -0.03, y: -0.05}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.25, y: 0.25}
+    oldSize: {x: 0.56359863, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -261,8 +261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b97f4a0453e03ac4aa35d5cdae0583c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 10
-  jumpSpeed: 20
+  runSpeed: 4
+  jumpSpeed: 10
   charm: {fileID: 4990073628458053775, guid: 0234eabccc9264c46b1b0ce04d179f81, type: 3}
   spell: {fileID: 7238829092889798248}
   magician: {fileID: 4990073628458053775}
@@ -291,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 7255177656740005509}
   serializedVersion: 2
   m_LocalRotation: {x: 0.015445553, y: 0, z: 0, w: 0.99988073}
-  m_LocalPosition: {x: 0.26, y: -0.09, z: 0}
+  m_LocalPosition: {x: 0.61, y: -0.09, z: 0}
   m_LocalScale: {x: 3.65, y: 4.99, z: 3.13}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -71,11 +71,11 @@ public class Player : MonoBehaviour
 
     void Run()
     {
-        if(moveInput.x > 0){
+        /*if(moveInput.x > 0){
              transform.localScale = new Vector2(0.25f,0.25f);
         }else if(moveInput.x < 0){
              transform.localScale = new Vector2(0.25f,0.25f);
-        }
+        }*/
         Vector2 playerVelocity = new Vector2(moveInput.x * runSpeed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
@@ -89,11 +89,11 @@ public class Player : MonoBehaviour
     {
         
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
-        transform.localScale = new Vector2(0.25f,0.25f);
+        //transform.localScale = new Vector2(0.25f,0.25f);
         if (playerHasHorizontalSpeed)
         {
             //transform.localScale = new Vector2(0.25f,0.25f);
-            transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x), 0.25f);
+            transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x )* 0.25f, 0.25f);
             
         }
 
