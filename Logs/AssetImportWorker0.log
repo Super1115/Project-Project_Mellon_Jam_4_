@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16052 MB
@@ -218,4 +219,354 @@ Editor requested this worker to shutdown with reason: Scaling down because of id
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
 AssetImportWorker is now disconnected from the server
 Process exiting
+=======
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16052 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/murat/Project_Jam
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62076
+Successfully changed project path to: C:/Users/murat/Project_Jam
+C:/Users/murat/Project_Jam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1632] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 1228421770 [EditorId] 1228421770 [Version] 1048832 [Id] WindowsEditor(7,anubis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1632] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 1228421770 [EditorId] 1228421770 [Version] 1048832 [Id] WindowsEditor(7,anubis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 32.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/murat/Project_Jam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010897 seconds.
+- Loaded All Assemblies, in  0.384 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.200 seconds
+Domain Reload Profiling: 583ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (153ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.659 seconds
+Refreshing native plugins compatible for Editor in 4.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1243ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (478ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (246.9 KB). Loaded Objects now: 4856.
+Memory consumption went from 151.0 MB to 150.7 MB.
+Total: 3.436700 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.116400 ms MarkObjects: 2.923500 ms  DeleteObjects: 0.178000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66708.217134 seconds.
+  path: Assets/Tileset/Materials/trees.mat
+  artifactKey: Guid(a7f5205ac8e25734db20f228153b7d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/trees.mat using Guid(a7f5205ac8e25734db20f228153b7d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63945adac5a1b8f37333cd02e0e6a25') in 0.077694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.783581 seconds.
+  path: Assets/Tileset/Materials/materials_Hell
+  artifactKey: Guid(dbc9168ccda1a8840b7c69c9c20fdf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell using Guid(dbc9168ccda1a8840b7c69c9c20fdf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9a8a891a4b422cd6183a623c748464') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 83.549319 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair.png
+  artifactKey: Guid(c5aad9df933a62f4e939f74baacab008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair.png using Guid(c5aad9df933a62f4e939f74baacab008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b2a6298e4739529bb479b30e94dac6') in 0.095538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 46.812326 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_7.asset
+  artifactKey: Guid(986de800b1a6a574c9969fd5a5b84364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_7.asset using Guid(986de800b1a6a574c9969fd5a5b84364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c83360b7bff6eb199d4edce7c92efe') in 0.017164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014723 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_16.asset
+  artifactKey: Guid(e9d377202e15efe488ae338b6a3e0ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_16.asset using Guid(e9d377202e15efe488ae338b6a3e0ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46f8bcbe63bfe15fbcceaa438e23786') in 0.011498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_18.asset
+  artifactKey: Guid(4f23de8a0f24d65428e81b6fb5c5be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_18.asset using Guid(4f23de8a0f24d65428e81b6fb5c5be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef6cedab235e4073a75e8159a0703f3') in 0.008138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_23.asset
+  artifactKey: Guid(6cb096c587d1d484e81c24992e34964d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_23.asset using Guid(6cb096c587d1d484e81c24992e34964d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aa04d8022aa78884a1c4ef01b7d452') in 0.008422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028428 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_26.asset
+  artifactKey: Guid(280b268f8de317c4bb29f96c6c8e8ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_26.asset using Guid(280b268f8de317c4bb29f96c6c8e8ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825670d4bd94e39b50dda8cecffc2405') in 0.008087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_28.asset
+  artifactKey: Guid(2421d7a573769684b9f9f6458468b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_28.asset using Guid(2421d7a573769684b9f9f6458468b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f355a3ef80a4dbd2c3781394f45f7d24') in 0.010601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_30.asset
+  artifactKey: Guid(9019780f2225dd44abd505aa26fa3d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_30.asset using Guid(9019780f2225dd44abd505aa26fa3d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c301c615e4fa821cedc744e7b2159da5') in 0.008682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_34.asset
+  artifactKey: Guid(dbda51d959e5cbc4b821697658d98d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_34.asset using Guid(dbda51d959e5cbc4b821697658d98d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82635887e92c0bc4f75bc78989628fdb') in 0.008497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_35.asset
+  artifactKey: Guid(2c6e1146ee13e2f4595a02fdafd8cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_35.asset using Guid(2c6e1146ee13e2f4595a02fdafd8cfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a9f69eae03a4eeaae8edfbad05e597') in 0.010077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_37.asset
+  artifactKey: Guid(18f041c04e6a5fc42a6b033800c42b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_37.asset using Guid(18f041c04e6a5fc42a6b033800c42b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bacb9cd7eb7b5422a32f4f3a5c25c18') in 0.008272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_43.asset
+  artifactKey: Guid(df34b935a1e607c47bccf24e0b2a209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_43.asset using Guid(df34b935a1e607c47bccf24e0b2a209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f1429439aae80a0e39823e598d26d0') in 0.007681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_45.asset
+  artifactKey: Guid(0334a4e39c4beae44a92f676588aaf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_45.asset using Guid(0334a4e39c4beae44a92f676588aaf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a0b047a4b8a70c4f165f555490123b') in 0.010085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_47.asset
+  artifactKey: Guid(326530e5c6437cf49b8b45c528465422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_47.asset using Guid(326530e5c6437cf49b8b45c528465422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba9365c7455024a3e8232910e177795') in 0.010017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_38.asset
+  artifactKey: Guid(7c73875483988554e8ca39901cfc514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_38.asset using Guid(7c73875483988554e8ca39901cfc514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca962c348de133b9bcf89528e366c20') in 0.010434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_42.asset
+  artifactKey: Guid(06aeb95311e5bc64a9868a9842329dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_42.asset using Guid(06aeb95311e5bc64a9868a9842329dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c2a6752900d0971486b99870ee4f67') in 0.012554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_27.asset
+  artifactKey: Guid(5c7db7093b76bd645915b83921cda429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_27.asset using Guid(5c7db7093b76bd645915b83921cda429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8689228de93f1808512763edcf90d0f') in 0.008349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tileset/Materials/materials_Hell/crosshair_41.asset
+  artifactKey: Guid(b89a4a0bff92d794580aea0077cd3fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Materials/materials_Hell/crosshair_41.asset using Guid(b89a4a0bff92d794580aea0077cd3fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b4610d03b1906aa47cdcec08fe700a') in 0.011081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+>>>>>>> feature/development
 Exiting without the bug reporter. Application will terminate with return code 0
