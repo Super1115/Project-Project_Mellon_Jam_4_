@@ -15,7 +15,7 @@ C:/Users/murat/Project_Jam
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57722
+53253
 Successfully changed project path to: C:/Users/murat/Project_Jam
 C:/Users/murat/Project_Jam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/murat/Project_Jam
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21252] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 3619876776 [EditorId] 3619876776 [Version] 1048832 [Id] WindowsEditor(7,anubis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29240] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 444029965 [EditorId] 444029965 [Version] 1048832 [Id] WindowsEditor(7,anubis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21252] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 3619876776 [EditorId] 3619876776 [Version] 1048832 [Id] WindowsEditor(7,anubis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29240] Host "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 444029965 [EditorId] 444029965 [Version] 1048832 [Id] WindowsEditor(7,anubis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 8.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006024 seconds.
-- Loaded All Assemblies, in  0.257 seconds
+Registered in 0.007974 seconds.
+- Loaded All Assemblies, in  0.332 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.182 seconds
-Domain Reload Profiling: 437ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 579ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
-		LoadAssemblies (82ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (116ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (182ms)
+	FinalizeReload (249ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (139ms)
+		SetupLoadedEditorAssemblies (192ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (92ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 437ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.467 seconds
-Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.611 seconds
+Refreshing native plugins compatible for Editor in 4.65 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.540 seconds
-Domain Reload Profiling: 1004ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (293ms)
-		LoadAssemblies (240ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (86ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (541ms)
+	FinalizeReload (703ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (433ms)
+		SetupLoadedEditorAssemblies (562ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (245.2 KB). Loaded Objects now: 4471.
-Memory consumption went from 143.2 MB to 143.0 MB.
-Total: 4.092800 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.174500 ms MarkObjects: 3.445400 ms  DeleteObjects: 0.218200 ms)
+Unloading 4398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (246.7 KB). Loaded Objects now: 4856.
+Memory consumption went from 151.0 MB to 150.7 MB.
+Total: 4.249600 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.198600 ms MarkObjects: 3.390400 ms  DeleteObjects: 0.341800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,150 +184,217 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16870.765800 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.010110 seconds
+  Time since last request: 24603.632625 seconds.
+  path: Assets/Tileset/Lava/palette_Lava.prefab
+  artifactKey: Guid(7b930eafe1e84b84299ba8ba247c0113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/palette_Lava.prefab using Guid(7b930eafe1e84b84299ba8ba247c0113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a40193e497d0190c5f66b4ac65a137') in 0.227008 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 148
 ========================================================================
 Received Import Request.
-  Time since last request: 215.120817 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59e36ac27eb742016381b5658245531') in 0.001013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 48.561606 seconds.
-  path: Assets/Tileset
-  artifactKey: Guid(4f29f1f2ccdd02d4cb4da2053262bb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset using Guid(4f29f1f2ccdd02d4cb4da2053262bb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11d2188707c749012e747b81a516eee') in 0.000461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.958941 seconds.
-  path: Assets/Tileset/tileset_forest.png
-  artifactKey: Guid(b2018fc287cd23440848ea5fabedd133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/tileset_forest.png using Guid(b2018fc287cd23440848ea5fabedd133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea12c77968e7d9fe267b62cd1b95eeac') in 0.040345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 39.685798 seconds.
-  path: Assets/Tileset/tileset_forest.png
-  artifactKey: Guid(b2018fc287cd23440848ea5fabedd133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/tileset_forest.png using Guid(b2018fc287cd23440848ea5fabedd133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9514cd240200eba92f97b0f8e9390490') in 0.111344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 34.416771 seconds.
-  path: Assets/Tileset/tilepalette_Forest.prefab
-  artifactKey: Guid(93741fc53f9d8f441b3b95f558821ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/tilepalette_Forest.prefab using Guid(93741fc53f9d8f441b3b95f558821ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ee6ae2bcd0441b4fd1adc75d2f6b28') in 0.037853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 29.705310 seconds.
-  path: Assets/Tileset/Forest/tilepalette_Forest.prefab
-  artifactKey: Guid(93741fc53f9d8f441b3b95f558821ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tilepalette_Forest.prefab using Guid(93741fc53f9d8f441b3b95f558821ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc95bdd37a8bfc03cd2ea361437f45ff') in 0.135699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_12.asset
-  artifactKey: Guid(db0e2c2b97bd3334fa9a7ff2d457c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_12.asset using Guid(db0e2c2b97bd3334fa9a7ff2d457c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa59f822b2f8afd5702a316bb3d6819') in 0.007608 seconds
+  Time since last request: 7.252774 seconds.
+  path: Assets/Tileset/Lava/lava_23.asset
+  artifactKey: Guid(b8429ba890824464daa13cba1bbe6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_23.asset using Guid(b8429ba890824464daa13cba1bbe6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a674c90a69d9321208db5a8ef4a22f71') in 0.022255 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_26.asset
-  artifactKey: Guid(852446c6d74c400428245f2866f070af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_26.asset using Guid(852446c6d74c400428245f2866f070af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577bcc8982550ee7b7a58e88a90fd8b5') in 0.006186 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tileset/Lava/lava_28.asset
+  artifactKey: Guid(91d7b7b2a0d5ffe4581aa44521940c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_28.asset using Guid(91d7b7b2a0d5ffe4581aa44521940c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1713d83b273b337f5064371a215169') in 0.011057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Tileset/Lava/lava_34.asset
+  artifactKey: Guid(214c6dca1615e304ca62ad13df042e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_34.asset using Guid(214c6dca1615e304ca62ad13df042e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3659bc8c24eb47804976e06edae28c33') in 0.010141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003257 seconds.
+  path: Assets/Tileset/Lava/lava_38.asset
+  artifactKey: Guid(fd5080b659c50b34697be41f9d136952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_38.asset using Guid(fd5080b659c50b34697be41f9d136952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ff7bcb9eada9adfd6d5b4d2c4beaaf') in 0.011198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/Tileset/Lava/lava_42.asset
+  artifactKey: Guid(3f6df9794fa9a114484bc6b280cc06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_42.asset using Guid(3f6df9794fa9a114484bc6b280cc06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8052198f7b1b693fbca6b3262e91c93') in 0.008384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000987 seconds.
+  path: Assets/Tileset/Lava/lava_45.asset
+  artifactKey: Guid(ffe8432e98fe4f942a617e9c13932022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_45.asset using Guid(ffe8432e98fe4f942a617e9c13932022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db9c7270ce85731ad7228d982e362bc') in 0.009122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002696 seconds.
+  path: Assets/Tileset/Lava/lava_48.asset
+  artifactKey: Guid(5bf309f10ae7b64498455ed88e11db24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_48.asset using Guid(5bf309f10ae7b64498455ed88e11db24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a76cd4333262b630d267950392dd1c') in 0.009048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000787 seconds.
+  path: Assets/Tileset/Lava/lava_51.asset
+  artifactKey: Guid(03c1cdc9d315e6046891869974cd236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_51.asset using Guid(03c1cdc9d315e6046891869974cd236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84188c3e79fd9b0bb5b52be908437a08') in 0.006655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001261 seconds.
+  path: Assets/Tileset/Lava/lava_54.asset
+  artifactKey: Guid(b1b95b4266558434195b83e407d7da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_54.asset using Guid(b1b95b4266558434195b83e407d7da40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1116cfebf10c6b22f5aa4c64615fcf51') in 0.012996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Tileset/Lava/lava_58.asset
+  artifactKey: Guid(2d8aa73828f95ee4d8f3d29453460670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_58.asset using Guid(2d8aa73828f95ee4d8f3d29453460670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05cb602978a25053aa0357b54839f4e') in 0.008639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002834 seconds.
+  path: Assets/Tileset/Lava/lava_62.asset
+  artifactKey: Guid(030259c2c62ec2d4f90ca86befb65ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_62.asset using Guid(030259c2c62ec2d4f90ca86befb65ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf906869480a6407f031e01f170d85a') in 0.009323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005530 seconds.
+  path: Assets/Tileset/Lava/lava_66.asset
+  artifactKey: Guid(de7fe4d57b947b9488bcc3b9b0f9e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_66.asset using Guid(de7fe4d57b947b9488bcc3b9b0f9e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21708cb997474c360b1de78af20252d') in 0.009521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Tileset/Lava/lava_70.asset
+  artifactKey: Guid(9786412c050d0ae4d88db0e67b58b769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/lava_70.asset using Guid(9786412c050d0ae4d88db0e67b58b769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97180427cc098a8aa2c665f0defb145f') in 0.008766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 128.759227 seconds.
+  path: Assets/Tileset/Lava/palette_Lava.prefab
+  artifactKey: Guid(7b930eafe1e84b84299ba8ba247c0113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/palette_Lava.prefab using Guid(7b930eafe1e84b84299ba8ba247c0113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675c596782fc1c1518b40d04c2d8ed37') in 0.039776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 245
+========================================================================
+Received Import Request.
+  Time since last request: 0.810710 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_19.asset
+  artifactKey: Guid(1e58734e820ba0441aeb71a36c5b9254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_19.asset using Guid(1e58734e820ba0441aeb71a36c5b9254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b941ea5d701c0e12a00398b228831e6') in 0.005188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_21.asset
+  artifactKey: Guid(771d8caeb21e5bc439017d81c0c625be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_21.asset using Guid(771d8caeb21e5bc439017d81c0c625be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399173957143e771a75ec96fce166e9c') in 0.003869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033001 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_25.asset
+  artifactKey: Guid(1158ae9c949aa004faa519558e073a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_25.asset using Guid(1158ae9c949aa004faa519558e073a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e26a1d09304e97bd7e295bf2aa83bb') in 0.015989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_28.asset
+  artifactKey: Guid(e2878ef2b2d99264cad98a1f64c84e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_28.asset using Guid(e2878ef2b2d99264cad98a1f64c84e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d3ae8fd9bce929dc3cc559190236ff') in 0.009531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_30.asset
+  artifactKey: Guid(1f43c35879231374fa21e16c3d34bd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_30.asset using Guid(1f43c35879231374fa21e16c3d34bd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab7e5a112e69d0757105e228341fa0e') in 0.006243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_26.asset
+  artifactKey: Guid(af61a637143715b42b8bca6287102b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_26.asset using Guid(af61a637143715b42b8bca6287102b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507efb68b5f1d10743438c1c9049de57') in 0.006705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.512739 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_31.asset
+  artifactKey: Guid(fd30afc5e251a134790cc719dc7c7b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_31.asset using Guid(fd30afc5e251a134790cc719dc7c7b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3739dbd20ddb7c62df37d5f2e7c820b') in 0.004603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_33.asset
+  artifactKey: Guid(ee5846729e209994e9917a42535a388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_33.asset using Guid(ee5846729e209994e9917a42535a388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4bea297d3f04ba8cfa4a017bb70f9c') in 0.003842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_36.asset
+  artifactKey: Guid(035041f2fb1b18c4684ad4ca86459672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_36.asset using Guid(035041f2fb1b18c4684ad4ca86459672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83aabd565237fe2fc522b0964d72459') in 0.003675 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_19.asset
-  artifactKey: Guid(65dcdb1c97567ec42a7ba66bf43dd368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_19.asset using Guid(65dcdb1c97567ec42a7ba66bf43dd368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285ac47f4a77f9172f5d8d1ed37be43b') in 0.004096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_29.asset
-  artifactKey: Guid(f8a092ff1ffd30841939a5a952aeb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_29.asset using Guid(f8a092ff1ffd30841939a5a952aeb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d57908a2fbeed3a8ed93fa05d0d31a7') in 0.010475 seconds
+  path: Assets/Tileset/Lava/tileset_lava_39.asset
+  artifactKey: Guid(0a09130d7d5f69846a1f025e88a8962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_39.asset using Guid(0a09130d7d5f69846a1f025e88a8962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc447e4388ce84760e76b1fde9296ee') in 0.004034 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_6.asset
-  artifactKey: Guid(1c5743deb3929694ba08da90087606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_6.asset using Guid(1c5743deb3929694ba08da90087606d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a63a723b810677d6df7b87f0a79a9f') in 0.005120 seconds
+  path: Assets/Tileset/Lava/tileset_lava_41.asset
+  artifactKey: Guid(d29e140d85341e24385c94b0dcdd4805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_41.asset using Guid(d29e140d85341e24385c94b0dcdd4805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c317b03d5a7e270c098036f998d463') in 0.006536 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_25.asset
-  artifactKey: Guid(b5a994224b3a15b4ea0ae3db616f5e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_25.asset using Guid(b5a994224b3a15b4ea0ae3db616f5e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9eea7df03a9ba8b04fb986ced2511f') in 0.005886 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tileset/Lava/tileset_lava_38.asset
+  artifactKey: Guid(b3ea831f5444e4147adb547f949e1221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Lava/tileset_lava_38.asset using Guid(b3ea831f5444e4147adb547f949e1221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f350056a8f8fa91db6c513fd9d5d90') in 0.004045 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_23.asset
-  artifactKey: Guid(7c99e044dc5b4e04ab7012d16f30f590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_23.asset using Guid(7c99e044dc5b4e04ab7012d16f30f590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c9e1e99ce9552f049d3a9ead05af6e') in 0.004409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_4.asset
-  artifactKey: Guid(554408b8be56a364ea0836f9758c22d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_4.asset using Guid(554408b8be56a364ea0836f9758c22d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eaf157e27e6d656eb6bc1faa74963e') in 0.005237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_18.asset
-  artifactKey: Guid(9102a025212c63a4789bdd1f76ee3d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_18.asset using Guid(9102a025212c63a4789bdd1f76ee3d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c075c9ae529b99d9164fb11bf9bb0644') in 0.007890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_20.asset
-  artifactKey: Guid(c87cbb157dea03345a893fb4485791b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_20.asset using Guid(c87cbb157dea03345a893fb4485791b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058ff222c46bee361e3050a591b1148b') in 0.007282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Tileset/Forest/tileset_forest_13.asset
-  artifactKey: Guid(4302363a95decad4fa919a1623269828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tileset/Forest/tileset_forest_13.asset using Guid(4302363a95decad4fa919a1623269828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b7b24a6e2eb3e3fe77b38a439aaea6') in 0.006242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

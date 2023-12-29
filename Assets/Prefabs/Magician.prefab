@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 828072781}
   - component: {fileID: 8267329079916377110}
   - component: {fileID: 2040059177037677857}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Magician
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.3581, y: 0.6833, z: 0}
-  m_LocalScale: {x: 1.4525865, y: 1.2180402, z: 1}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7238829092889798248}
@@ -98,8 +98,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 582438801
-  m_SortingLayer: 2
+  m_SortingLayerID: 485293579
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1860133335, guid: da4138553ad553f4aaff0e2b6f6b7b11, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -274,7 +274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7238829092889798248}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
