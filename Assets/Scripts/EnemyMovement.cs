@@ -8,31 +8,33 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] float moveSpeed = 1f;
     void Start()
     {
-      myRigidBody = GetComponent<Rigidbody2D>();
+        myRigidBody = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-       myRigidBody.velocity = new Vector2(moveSpeed, 0f);
+        myRigidBody.velocity = new Vector2(moveSpeed, 0f);
     }
 
-   void OnTriggerExit2D(Collider2D other) {
+    void OnTriggerExit2D(Collider2D other)
+    {
         moveSpeed = -moveSpeed;
         FlipEnemyFacing();
     }
 
-   void OnTriggerEnter2D(Collider2D other) {
-    if(other.tag == "Pets"){
+    void OnTriggerEnter2D(Collider2D other) {
+     if(other.tag == "Pets"){
+         Destroy(other.gameObject);
+      }else if(other.tag == "Player"){
         FlipEnemyFacing();
-        //Destroy(other.gameObject);
-    }
-       
-    }
-    
-    
+      }
+     }
 
-    void FlipEnemyFacing(){
-        transform.localScale = new Vector2(-(Mathf.Sign(myRigidBody.velocity.x))*0.25f, 0.25f);
-    
+
+
+    void FlipEnemyFacing()
+    {
+        transform.localScale = new Vector2(-(Mathf.Sign(myRigidBody.velocity.x)) * 0.25f, 0.25f);
+
     }
 }

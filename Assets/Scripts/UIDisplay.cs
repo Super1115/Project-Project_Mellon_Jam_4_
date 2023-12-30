@@ -7,10 +7,10 @@ using TMPro;
 public class UIDisplay : MonoBehaviour
 {
     [SerializeField] Health playerHealth;
-    [SerializeField] Slider healthSlider;
 
     [SerializeField] TextMeshProUGUI scoreText;
     ScoreKeeper scorekeeper;
+    int value;
     
 
     void Awake(){
@@ -19,14 +19,14 @@ public class UIDisplay : MonoBehaviour
     }
 
     void Start(){
-        healthSlider.maxValue  = playerHealth.GetHealth();
+       value  = playerHealth.GetHealth();
         
     }
 
 
     void Update()
     {
-        healthSlider.value = playerHealth.GetHealth();
+        value = playerHealth.GetHealth();
         
         scoreText.text = scorekeeper.GetScore().ToString("000000000");
     }
