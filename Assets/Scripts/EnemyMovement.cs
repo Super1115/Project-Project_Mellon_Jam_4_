@@ -21,8 +21,18 @@ public class EnemyMovement : MonoBehaviour
         FlipEnemyFacing();
     }
 
+   void OnTriggerEnter2D(Collider2D other) {
+    if(other.tag == "Pets"){
+        FlipEnemyFacing();
+        //Destroy(other.gameObject);
+    }
+       
+    }
+    
+    
+
     void FlipEnemyFacing(){
-        transform.localScale = new Vector2(-(Mathf.Sign(myRigidBody.velocity.x)), 1f);
+        transform.localScale = new Vector2(-(Mathf.Sign(myRigidBody.velocity.x))*0.25f, 0.25f);
     
     }
 }

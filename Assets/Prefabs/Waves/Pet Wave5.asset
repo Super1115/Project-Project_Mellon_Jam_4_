@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40695a00b8c6d44488f99a06c8bc4ae8, type: 3}
-  m_Name: Pet Waves
+  m_Name: Pet Wave5
   m_EditorClassIdentifier: 
   petPrefabs:
   - {fileID: 4615812884426225779, guid: 2991da290630515479cfcb24b291351b, type: 3}
-  - {fileID: 4615812884426225779, guid: 2991da290630515479cfcb24b291351b, type: 3}
-  - {fileID: 4615812884426225779, guid: 2991da290630515479cfcb24b291351b, type: 3}
+  pathPrefab: {fileID: 3932421089585905177, guid: f673239bfc3641040a6ec2c704a6303d, type: 3}
   moveSpeed: 5
   timeBetweenPetSpawns: 1
   spawnTimeVariance: 0

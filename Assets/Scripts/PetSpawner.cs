@@ -20,20 +20,24 @@ public class PetSpawner : MonoBehaviour
 
     IEnumerator SpawnPetWaves()
     {
-        
-            foreach (WaveConfigSO wave in waveConfigs)
+
+        foreach (WaveConfigSO wave in waveConfigs)
+        {
+            currentWave = wave;
+            for (int i = 0; i < currentWave.GetPetCount(); i++)
             {
-                currentWave = wave;
-                for (int i = 0; i < currentWave.GetPetCount(); i++)
-                {
-                    Vector2 position = currentWave.GetPetPrefab(i).transform.position + new Vector3(-1f,0.5f,0);
-                    Instantiate(currentWave.GetPetPrefab(i),
-                        position,
-                        Quaternion.Euler(0,0,0),
-                        transform);
-                    yield return new WaitForSeconds(currentWave.GetRandomSpawnTime());
-                }
-                yield return new WaitForSeconds(timeBetweenWaves);
+                Instantiate(currentWave.GetPetPrefab(i),
+                    currentWave.GetStartingWayPoint().position + new Vector3(0.1f, 0),
+                    Quaternion.Euler(0, 0, 0),
+                    transform);
+                yield return new WaitForSeconds(currentWave.GetRandomSpawnTime());
+                //count++;
             }
+            yield return new WaitForSeconds(timeBetweenWaves);
+        }
+
     }
+
+    
 }
+

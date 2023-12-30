@@ -31,6 +31,7 @@ public class Charm : MonoBehaviour
         if(other.tag == "Pets"){
            coroutine= StartCoroutine(CharmPet());
            FindObjectOfType<ScoreKeeper>().ModifyScore(pointsForPetCollected);
+           Destroy(other.gameObject);
         }
         Destroy(gameObject);
     }
