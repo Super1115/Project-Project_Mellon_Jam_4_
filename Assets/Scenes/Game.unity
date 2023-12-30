@@ -305,7 +305,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4380033565917884134, guid: 1af1710b2481c004ba264775cdede4ea, type: 3}
       propertyPath: m_Name
-      value: ScenePersist
+      value: mapSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 7206977786310676668, guid: 1af1710b2481c004ba264775cdede4ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1443,11 +1443,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPointObject: {fileID: 15629964}
   Player: {fileID: 902251054}
-  minLength: 0
-  maxLength: 0
+  minLength: 3
+  maxLength: 5
   SpawnPointX: -7
   SpawnPointY: 0
-  allPlatformPrefabs: []
+  allPlatformPrefabs:
+  - {fileID: 2352048573349293622, guid: 61a736dc7bac9f341bfcca47d3cfff2a, type: 3}
+  - {fileID: 408503979696235017, guid: 763aaafa31f1de84092ba2008d583c14, type: 3}
+  - {fileID: 4003469238452491875, guid: b91c2bb62a31a1d45998ab4a350842d2, type: 3}
 --- !u!1001 &1464783041
 PrefabInstance:
   m_ObjectHideFlags: 0
