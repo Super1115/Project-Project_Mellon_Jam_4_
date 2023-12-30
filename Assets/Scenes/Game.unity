@@ -2117,10 +2117,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameSession
       objectReference: {fileID: 0}
+    - target: {fileID: 7377871186608967126, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377871186608967126, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8093166451492979107, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 902251055}
+    - target: {fileID: 9047357146611908413, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047357146611908413, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047357146611908413, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

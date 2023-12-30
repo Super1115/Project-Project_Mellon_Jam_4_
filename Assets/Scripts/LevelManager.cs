@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] float sceneLoadDelay = 2f;
+    //[SerializeField] float sceneLoadDelay = 2f;
     ScoreKeeper scorekeeper;
 
     void Awake()
@@ -21,7 +21,7 @@ public class LevelManager : MonoBehaviour
             scorekeeper = FindObjectOfType<ScoreKeeper>();
             scorekeeper.ResetScore();
         }
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("scene_InGame");
         
     }
 
@@ -32,7 +32,7 @@ public class LevelManager : MonoBehaviour
 
     public void LoadGameOver()
     {
-        StartCoroutine(WaitAndLoad("GameOver", sceneLoadDelay));
+       SceneManager.LoadScene("GameOver");
     }
 
     public void QuitGame()

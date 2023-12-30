@@ -11444,6 +11444,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3248677601523324680, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3248677601523324680, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -508
+      objectReference: {fileID: 0}
+    - target: {fileID: 4877264432821076152, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6033743104416797149, guid: 81de35a817e3ae54cb870d513e8742e1, type: 3}
       propertyPath: m_Name
       value: GameSession
