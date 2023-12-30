@@ -19,15 +19,21 @@ public class UIDisplay : MonoBehaviour
     }
 
     void Start(){
-       value  = playerHealth.GetHealth();
+
+        value  = playerHealth.GetHealth();
         
     }
 
 
     void Update()
     {
-        value = playerHealth.GetHealth();
-        
+
+        if(playerHealth == null){
+            value = 0;
+        }else{
+            value = playerHealth.GetHealth();
+        }
+                
         scoreText.text = scorekeeper.GetScore().ToString("000000000");
     }
 }

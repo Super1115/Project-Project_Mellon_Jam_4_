@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pet Wave7
   m_EditorClassIdentifier: 
   petPrefabs:
-  - {fileID: 4615812884426225779, guid: 2991da290630515479cfcb24b291351b, type: 3}
+  - {fileID: 4615812884426225779, guid: 5648c9a712546bb41854dc874d699990, type: 3}
   pathPrefab: {fileID: 2983363413979349952, guid: 301662347a08df440a303634dcc2f2e5, type: 3}
   moveSpeed: 5
   timeBetweenPetSpawns: 1
