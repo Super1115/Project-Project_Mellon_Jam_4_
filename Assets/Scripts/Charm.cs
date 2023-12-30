@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Charm : MonoBehaviour
 {
+
+    
     Rigidbody2D myRigidBody;
     [SerializeField] float charmSpeed = 20f;
 
@@ -11,9 +13,14 @@ public class Charm : MonoBehaviour
 
     [SerializeField] int pointsForPetCollected = 100;
     Player player;
+    AudioPlayer audioPlayer;
     float xSpeed;
 
     Coroutine coroutine;
+
+    void Awake(){
+        audioPlayer = FindObjectOfType<AudioPlayer>();
+    }
    
     void Start()
     {
@@ -29,9 +36,11 @@ public class Charm : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Pets"){
+            audioPlayer.PlayMusicClip();
            coroutine= StartCoroutine(CharmPet());
            FindObjectOfType<ScoreKeeper>().ModifyScore(pointsForPetCollected);
            Destroy(other.gameObject);
+           
         }
         Destroy(gameObject);
     }

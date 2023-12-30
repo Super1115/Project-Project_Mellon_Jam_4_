@@ -19,6 +19,11 @@ public class Player : MonoBehaviour
     BoxCollider2D myFeetCollider;
     bool isAlive = true;
     bool isClicking = false;
+    AudioPlayer audioPlayer;
+
+    void Awake(){
+        audioPlayer = FindObjectOfType<AudioPlayer>();
+    }
     void Start()
     {
 
@@ -69,10 +74,10 @@ public class Player : MonoBehaviour
             return;
         }
         if(value.isPressed){
-            isClicking = true;
-            myAnimator.SetBool("isClicking",isClicking);
+            audioPlayer.PlayShootingClip();
         }  
         Instantiate(charm, gun.position, transform.rotation);
+         //audioPlayer.PlayShootingClip();
         
     }
 
