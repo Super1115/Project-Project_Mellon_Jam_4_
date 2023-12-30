@@ -9,14 +9,19 @@ public class map_generator : MonoBehaviour
     public int minLength;
     public int maxLength;
 
-    public Transform[] allPlatformPrefabs;
+
+    public float SpawnPointX = -7;
+    public float SpawnPointY = 0;
+
 
 
     private void Awake() {
         var random = new System.Random();
         transform.position = new Vector3(0,0);
+
         SpawnObject(x: 0,y: 0,prefabToSpawn: SpawnPointObject);
         Player.transform.position = new Vector3(transform.position.x+3,transform.position.y+2);
+
         for (int i = 0; i < 25; i++) 
             {
                 SpawnObject(transform.position.x+random.Next(minLength,maxLength),random.Next(-1,1),allPlatformPrefabs[random.Next(0,allPlatformPrefabs.Length)]);

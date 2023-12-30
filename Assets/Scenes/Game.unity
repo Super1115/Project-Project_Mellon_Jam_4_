@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+
 --- !u!1001 &15629963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -180,6 +181,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e0016fb39a21c140b98cdcc20c02ccf, type: 3}
+
 --- !u!1 &178799625
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,17 +288,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f8cd5907528a104bb82288620b6aeae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interpVelocity: 0
-  minDistance: 0
-  followDistance: 0
-  target: {fileID: 902251054}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &178799630
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178799625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8cd5907528a104bb82288620b6aeae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interpVelocity: 0
+  minDistance: 0
+  followDistance: 0
+
+  target: {fileID: 902251054}
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &178799630
+
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 178799625}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -395,6 +412,7 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &449469783
+
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -402,11 +420,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+
     - target: {fileID: 4380033565917884134, guid: 1af1710b2481c004ba264775cdede4ea, type: 3}
       propertyPath: m_Name
       value: mapSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 7206977786310676668, guid: 1af1710b2481c004ba264775cdede4ea, type: 3}
+
       propertyPath: m_LocalPosition.x
       value: 0.97146475
       objectReference: {fileID: 0}
@@ -446,6 +466,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -666,6 +687,7 @@ MonoBehaviour:
   score: 0
 --- !u!114 &902251056
 MonoBehaviour:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1484,6 +1506,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 178799628}
   - {fileID: 902251053}
+
   - {fileID: 1975579290}
   - {fileID: 449469783}
   - {fileID: 15629963}
@@ -1496,3 +1519,4 @@ SceneRoots:
   - {fileID: 818220654}
   - {fileID: 920730035}
   - {fileID: 338820353}
+
