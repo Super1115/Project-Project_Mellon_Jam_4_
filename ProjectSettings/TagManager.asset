@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pets
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Foreground
   - Player
   - Charms
-  - 
-  - 
+  - Hazards
+  - Pets
   - 
   - 
   - 
@@ -49,6 +50,12 @@ TagManager:
     locked: 0
   - name: Midground
     uniqueID: 622369937
+    locked: 0
+  - name: Hazards
+    uniqueID: 2566382839
+    locked: 0
+  - name: Pets
+    uniqueID: 923633409
     locked: 0
   - name: Player
     uniqueID: 2503224483
